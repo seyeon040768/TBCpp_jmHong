@@ -7,6 +7,8 @@ using namespace std;
 
 #define LIKE_APPLE
 
+void DoSomething();
+
 int main(void)
 {
 	cout << MY_NUMBER << endl;
@@ -19,6 +21,8 @@ int main(void)
 #ifndef LIKE_APPLE
 	cout << "Orange" << endl;
 #endif
+
+	DoSomething(); // Orange
 
 	return 0;
 }
