@@ -19,5 +19,9 @@ int main(void)
 	cout << sizeof(aValue) << endl;
 	cout << sizeof(aValue2) << endl;
 
+
+	int a(123); // direct initialization
+	int b{ 123 }; // uniform initialization
+
 	return 0;
 }
