@@ -20,8 +20,9 @@ int main(void)
 	cout << sizeof(aValue2) << endl;
 
 
-	int a(123); // direct initialization
-	int b{ 123 }; // uniform initialization
+	int i = 3.1415; // copy initialization
+	int a(3.14); // direct initialization
+	// int b{ 3.14 }; // uniform initialization
 
 	return 0;
 }
