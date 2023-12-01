@@ -54,6 +54,14 @@ int main(void)
 		cout << "This is false." << endl;
 	}
 
+	if (7)
+	{
+		cout << "This is true." << endl;
+	}
+	else
+	{
+		cout << "This is false." << endl;
+	}
 
 	cout << IsEqual(1, 1) << endl;
 	cout << IsEqual(0, 3) << endl;
