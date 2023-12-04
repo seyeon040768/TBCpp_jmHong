@@ -25,6 +25,7 @@ int main(void)
 	cout << bitset<8>(a >> 4) << " " << (a >> 4) << endl;
 
 
+	// not, and, or, xor
 	a = 0b1100;
 	unsigned int b = 0b0110;
 
