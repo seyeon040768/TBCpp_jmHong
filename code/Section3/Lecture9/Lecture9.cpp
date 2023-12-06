@@ -73,11 +73,12 @@ int main(void)
 	cout << bitset<8>(opt2 | opt3) << endl;
 	cout << "Item2, 3 obtained " << bitset<8>(itemsFlag) << endl;
 
-	// toggle
+	// toggle item2, 1
 	if ((itemsFlag & opt2) && !(itemsFlag & opt1))
 	{
-		itemsFlag ^= opt2;
-		itemsFlag ^= opt1;
+		// itemsFlag ^= opt2;
+		// itemsFlag ^= opt1;
+		itemsFlag ^= (opt2 | opt1);
 	}
 	cout << bitset<8>(itemsFlag) << endl;
 
