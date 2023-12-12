@@ -12,6 +12,11 @@ auto Sub(int x, int y)
 	return x - y;
 }
 
+auto Mul(int x, int y) -> int
+{
+	return x * y;
+}
+
 int main(void)
 {
 	auto a = 123;
@@ -22,6 +27,7 @@ int main(void)
 
 	auto result1 = Add(1, 2);
 	auto result2 = Sub(1, 2);
+	auto result3 = Mul(1, 2);
 
 	return 0;
 }
