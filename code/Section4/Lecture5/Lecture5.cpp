@@ -1,9 +1,10 @@
 #include <iostream>
 #include <typeinfo>
 
+using namespace std;
+
 int main(void)
 {
-	using namespace std;
 
 	int a = 123;
 	cout << typeid(a).name() << endl; // int
