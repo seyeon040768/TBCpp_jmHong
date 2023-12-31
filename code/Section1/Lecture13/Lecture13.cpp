@@ -10,7 +10,7 @@ namespace MySpace1
 		}
 	}
 
-	int DoSomething(int a, int b)
+	int Add(int a, int b)
 	{
 		return a + b;
 	}
@@ -18,9 +18,9 @@ namespace MySpace1
 
 namespace MySpace2
 {
-	int DoSomething(int a, int b)
+	int Add(int a, int b)
 	{
-		return a * b;
+		return a + b;
 	}
 }
 
@@ -32,8 +32,8 @@ int main(void)
 
 	cout << MyFunction() << endl;
 
-	cout << MySpace1::DoSomething(3, 4) << endl;
-	cout << MySpace2::DoSomething(3, 4) << endl;
+	cout << MySpace1::Add(3, 4) << endl;
+	cout << MySpace2::Add(3, 4) << endl;
 
 	return 0;
 }

@@ -23,7 +23,7 @@
     <ClInclude Include="add.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="doSomething.h">
+    <ClInclude Include="callAdd.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -2,7 +2,7 @@
 
 #include "add.h"
 
-void DoSomething()
+void CallAdd()
 {
 	Add(1, 2);
 }

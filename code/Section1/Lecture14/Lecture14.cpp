@@ -7,7 +7,7 @@ using namespace std;
 
 #define LIKE_APPLE
 
-void DoSomething();
+void PrintAppleOrOrange();
 
 int main(void)
 {
@@ -22,7 +22,7 @@ int main(void)
 	cout << "Orange" << endl;
 #endif
 
-	DoSomething(); // Orange
+	PrintAppleOrOrange(); // Orange
 
 	return 0;
 }

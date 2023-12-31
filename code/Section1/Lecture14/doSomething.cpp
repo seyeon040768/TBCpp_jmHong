@@ -1,6 +1,6 @@
 #include <iostream>
 
-void DoSomething()
+void PrintAppleOrOrange()
 {
 	using namespace std;
 

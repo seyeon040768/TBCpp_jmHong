@@ -1,13 +1,13 @@
 #include <iostream>
 
-#include "doSomething.h"
+#include "callAdd.h"
 // #include "add.h"
 
 using namespace std;
 
 int main(void)
 {
-	DoSomething();
+	CallAdd();
 
 	return 0;
 }

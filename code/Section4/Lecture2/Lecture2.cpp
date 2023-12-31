@@ -6,7 +6,7 @@ using namespace std;
 
 int value = 123;
 
-void DoSomething()
+void IncreaseA()
 {
 	static int a = 1;
 
@@ -30,8 +30,8 @@ int main(void)
 	cout << ::value << endl; // 123
 
 
-	DoSomething(); // 2
-	DoSomething(); // 3
+	IncreaseA(); // 2
+	IncreaseA(); // 3
 
 
 	Hello(); // Hello

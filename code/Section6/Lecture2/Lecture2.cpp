@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void DoSomething(int studentsScores[20]) // translated into int*
+void PrintAddress(int studentsScores[20]) // translated into int*
 {
 	cout << &studentsScores << endl; // 000000D858F2F700
 	cout << &studentsScores[0] << endl; // 000000D858F2F750
@@ -25,7 +25,7 @@ int main(void)
 
 	cout << sizeof(studentsScores) << endl; // 80
 
-	DoSomething(studentsScores);
+	PrintAddress(studentsScores);
 
 	return 0;
 }
